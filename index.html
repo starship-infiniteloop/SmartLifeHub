@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SmartLife Hub - Your Smart World, Simplified. Design, check, and automate your smart home with our futuristic planning, compatibility, energy calculator, and dashboard tools.">
+  <meta name="keywords" content="smart home, iot, energy calculator, automation, device compatibility, smart life, internet of things">
+  <title>SmartLife Hub | Design Your Perfect Smart Home</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Decorative Glowing Blurs -->
+  <div class="glow-backdrop-1"></div>
+  <div class="glow-backdrop-2"></div>
+
+  <!-- ==========================================================================
+     HEADER & NAVIGATION MENU
+     ========================================================================== */ -->
+  <header id="header">
+    <div class="nav-container">
+      <a href="#home" class="logo" id="logo-nav">
+        <div class="logo-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m12 3-10 9h3v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-8h3L12 3z"/>
+            <path d="M9 22V12h6v10"/>
+          </svg>
+        </div>
+        <div class="logo-text">SmartLife <span>Hub</span></div>
+      </a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#planner" class="nav-link">Planner</a>
+        <a href="#checker" class="nav-link">Checker</a>
+        <a href="#calculator" class="nav-link">Calculator</a>
+        <a href="#automation" class="nav-link">Automation</a>
+        <a href="#dashboard" class="nav-link">Dashboard</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="#planner" class="glow-btn glow-btn-primary" style="padding: 10px 20px; font-size: 0.8rem;">Initialize Hub</a>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+     HOME (HERO) SECTION
+     ========================================================================== */ -->
+  <section id="home">
+    <canvas id="canvas-network" class="hero-canvas"></canvas>
+    
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="section-badge">IoT Core Active</div>
+        <h1 class="hero-title"><span class="gradient-text">Design Your Perfect</span> Smart Home</h1>
+        <p class="hero-subtitle">Plan, connect, automate, and optimize your smart living experience with SmartLife Hub. Your ultimate portal for building highly efficient connected spaces.</p>
+        
+        <div class="hero-actions">
+          <a href="#planner" class="glow-btn glow-btn-primary">Start Planning</a>
+          <a href="#checker" class="glow-btn glow-btn-secondary">Check Devices</a>
+          <a href="#automation" class="glow-btn glow-btn-outline">Explore Automation</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     ABOUT SECTION
+     ========================================================================== */ -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Welcome to SmartLife</div>
+        <h2 class="section-title"><span class="gradient-text">What is</span> SmartLife Hub?</h2>
+        <p class="section-desc">We bridge the gap between technology and comfortable living, helping you design an ecosystem that serves your lifestyle.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-graphics">
+          <div class="about-banner">
+            <div class="about-banner-glow"></div>
+            <h4>Future Ready Architecture</h4>
+            <p>SmartLife Hub assists homeowners, developers, and technology enthusiasts in building safer, smarter, and highly efficient homes through fully unified IoT solutions.</p>
+            <div class="about-banner-badge">
+              <div class="badge-pulse"></div>
+              <span style="font-family: var(--font-display); font-size: 0.8rem; font-weight: 600;">System Online</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <h3>Your Smart World, Simplified</h3>
+          <p>Whether you're just starting your IoT journey or looking to build a self-sustaining predictive automated building, SmartLife Hub gives you all the tools to design custom setups, run calculations, and test compatibility on one glassmorphic portal.</p>
+          
+          <div class="features-grid">
+            <div class="feature-card glass-panel">
+              <div class="feature-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+                  <path d="m9 12 2 2 4-4"/>
+                </svg>
+              </div>
+              <h4>Easy Planning</h4>
+              <p>Select home layouts and place responsive sensors on mock floorplans in seconds.</p>
+            </div>
+
+            <div class="feature-card glass-panel">
+              <div class="feature-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                  <path d="m3.3 7 8.7 5 8.7-5"/>
+                  <path d="M12 22V12"/>
+                </svg>
+              </div>
+              <h4>Device Compatibility</h4>
+              <p>Validate integrations across protocols like Matter, Zigbee, and Thread.</p>
+            </div>
+
+            <div class="feature-card glass-panel">
+              <div class="feature-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                </svg>
+              </div>
+              <h4>Energy Efficiency</h4>
+              <p>Calculate your daily kilowatt hours and simulate high-savings optimizations.</p>
+            </div>
+
+            <div class="feature-card glass-panel">
+              <div class="feature-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2"/>
+                  <path d="M9 17V7l7 5-7 5z"/>
+                </svg>
+              </div>
+              <h4>Smart Automation</h4>
+              <p>Explore routine ideas that automate lights, locks, and climate seamlessly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     SMART HOME PLANNER SECTION
+     ========================================================================== */ -->
+  <section id="planner">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Interactive Module</div>
+        <h2 class="section-title"><span class="gradient-text">Smart Home</span> Planner</h2>
+        <p class="section-desc">Map out your dream ecosystem. Select a spatial layout structure and specify your smart devices to generate a dynamic custom IoT plan.</p>
+      </div>
+
+      <div class="planner-panel glass-panel">
+        <div class="planner-spinner" id="planner-loader">
+          <div class="cyber-spinner"></div>
+          <p>Compiling IoT Node Architectures...</p>
+        </div>
+
+        <div class="planner-controls">
+          <div class="planner-subtitle">Step 1: Choose Your Layout Space</div>
+          <div class="layout-selector">
+            <button class="layout-btn active" data-layout="apartment">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
+              </svg>
+              <span>Apartment</span>
+            </button>
+            <button class="layout-btn" data-layout="small-house">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+              <span>Small House</span>
+            </button>
+            <button class="layout-btn" data-layout="large-house">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 0l-5.25 1.91m5.25-.91v3.273m-5.25-2.363v10.727M14.25 7.5h.008v.008h-.008V7.5zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
+              </svg>
+              <span>Large House</span>
+            </button>
+            <button class="layout-btn" data-layout="office">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 16.5h1.5m3 0H15M6 21v-3a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v3m3 0v-3a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v3" />
+              </svg>
+              <span>Office Space</span>
+            </button>
+          </div>
+
+          <div class="planner-subtitle">Step 2: Choose Suggested Devices to Deploy</div>
+          <div class="device-picker-grid">
+            <label class="device-checkbox-label checked" id="lbl-light">
+              <input type="checkbox" name="smart-device" value="lights" checked>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+              </svg>
+              <span>Smart Lights</span>
+            </label>
+
+            <label class="device-checkbox-label checked" id="lbl-lock">
+              <input type="checkbox" name="smart-device" value="locks" checked>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+              </svg>
+              <span>Smart Locks</span>
+            </label>
+
+            <label class="device-checkbox-label checked" id="lbl-camera">
+              <input type="checkbox" name="smart-device" value="cameras" checked>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12a9.75 9.75 0 1119.5 0 9.75 9.75 0 01-19.5 0z" />
+              </svg>
+              <span>Smart Cameras</span>
+            </label>
+
+            <label class="device-checkbox-label checked" id="lbl-thermostat">
+              <input type="checkbox" name="smart-device" value="thermostats" checked>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+              </svg>
+              <span>Thermostats</span>
+            </label>
+
+            <label class="device-checkbox-label checked" id="lbl-sensor">
+              <input type="checkbox" name="smart-device" value="sensors" checked>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75" />
+              </svg>
+              <span>Smart Sensors</span>
+            </label>
+          </div>
+
+          <div class="planner-action">
+            <button class="glow-btn glow-btn-primary" id="btn-generate-plan">Generate Smart Home Plan</button>
+          </div>
+        </div>
+
+        <!-- Hidden Planner Results output -->
+        <div class="planner-results" id="planner-results-pane">
+          <div class="blueprint-card glass-panel">
+            <div class="blueprint-header">
+              <div class="blueprint-title" id="blueprint-title-text">Cyber blueprint | Apartment</div>
+              <div class="blueprint-badge">Security Node Active</div>
+            </div>
+            
+            <div class="blueprint-canvas-container">
+              <div class="blueprint-floorplan" id="floorplan-mesh">
+                <!-- Inner rooms are created dynamically in script.js based on selected space -->
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-details-card glass-panel">
+            <div class="plan-details-title">Recommended IoT Protocol Setup</div>
+            
+            <div class="plan-details-item">
+              <div class="plan-details-num">01</div>
+              <div class="plan-details-desc">
+                <h5 id="rec-hub-title">Matter Central Border Router Hub</h5>
+                <p id="rec-hub-desc">We recommend placing a thread-enabled smart speaker in the central room to connect locks, lights, and sensors via secure local IPv6 Mesh networks.</p>
+              </div>
+            </div>
+
+            <div class="plan-details-item">
+              <div class="plan-details-num">02</div>
+              <div class="plan-details-desc">
+                <h5>Proactive Energy Schedules</h5>
+                <p>Equip Thermostats with regional geo-fencing triggers. Unoccupied spaces transition to low-consumption configurations automatically.</p>
+              </div>
+            </div>
+
+            <div class="plan-details-item">
+              <div class="plan-details-num">03</div>
+              <div class="plan-details-desc">
+                <h5>Local Edge Security Logic</h5>
+                <p>Process your smart camera streams locally inside your edge border hub to guarantee extreme visual privacy without relying on public cloud databases.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     DEVICE COMPATIBILITY CHECKER
+     ========================================================================== */ -->
+  <section id="checker">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">System Integrity</div>
+        <h2 class="section-title"><span class="gradient-text">Device Compatibility</span> Checker</h2>
+        <p class="section-desc">Avoid buying incompatible IoT devices. Test the direct platform connectivity of popular brands across smart speakers, sensors, and lighting systems.</p>
+      </div>
+
+      <div class="checker-grid">
+        <div class="checker-form-card glass-panel">
+          <div class="form-group">
+            <label class="form-label" for="device-brand">Device Brand</label>
+            <select class="form-select" id="device-brand">
+              <option value="">-- Choose Brand --</option>
+              <option value="philips-hue">Philips Hue</option>
+              <option value="google-nest">Google Nest</option>
+              <option value="ring">Ring Security</option>
+              <option value="aqara">Aqara IoT</option>
+              <option value="sonos">Sonos Sound</option>
+              <option value="tp-link">TP-Link Kasa</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="device-type">Device Type</label>
+            <select class="form-select" id="device-type">
+              <option value="">-- Choose Category --</option>
+              <option value="lights">Smart Lights / Bulbs</option>
+              <option value="cameras">Smart Cameras / Doorbells</option>
+              <option value="speakers">Smart Speakers / Audio</option>
+              <option value="sensors">Motion / Temp Sensors</option>
+            </select>
+          </div>
+
+          <button class="glow-btn glow-btn-primary" style="width: 100%; justify-content: center;" id="btn-check-compatibility">Check Compatibility</button>
+        </div>
+
+        <div class="checker-result-card glass-panel" id="checker-result-block">
+          <!-- Placeholder state -->
+          <div class="checker-placeholder" id="checker-placeholder-ui">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.57-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+            </svg>
+            <h4>Ready for Audit</h4>
+            <p>Select a device brand and type to verify secure compatibility metrics on our digital ledger.</p>
+          </div>
+
+          <!-- Dynamic Result Display (Hidden initially) -->
+          <div class="checker-result-data" id="checker-result-data-ui">
+            <div class="result-badge-header">
+              <div class="status-indicator-badge pass" id="checker-badge-status">
+                <span class="badge-pulse"></span>
+                <span>Verified Match</span>
+              </div>
+              <div class="compatibility-score-ring">
+                <svg width="80" height="80" viewBox="0 0 80 80">
+                  <circle cx="40" cy="40" r="34" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="4"></circle>
+                  <circle id="score-ring-fill" cx="40" cy="40" r="34" fill="none" stroke="var(--color-cyan)" stroke-width="4" stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="21.36" transform="rotate(-90 40 40)"></circle>
+                </svg>
+                <div class="score-text" id="checker-score-val">90%</div>
+              </div>
+            </div>
+
+            <div class="result-detail-row">
+              <h5>Compatibility Tier</h5>
+              <div class="result-detail-val" id="checker-res-tier">Zigbee 3.0 / Local Hub Required</div>
+            </div>
+
+            <div class="result-detail-row">
+              <h5>Connectivity Protocols</h5>
+              <div class="result-detail-val">
+                <svg class="detail-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                <span id="checker-res-protocols">Matter Over Thread & Wi-Fi Direct</span>
+              </div>
+            </div>
+
+            <div class="result-detail-row">
+              <h5>Recommended Integration</h5>
+              <div class="result-detail-val" id="checker-res-rec">Unified Local Home Assistant Edge Integration</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     ENERGY USAGE CALCULATOR
+     ========================================================================== */ -->
+  <section id="calculator">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Eco Energy Shield</div>
+        <h2 class="section-title"><span class="gradient-text">Energy Efficiency</span> Calculator</h2>
+        <p class="section-desc">Simulate home energy consumption in real time. Adjust sliders to see smart routines lower monthly bills and reduce carbon footprint outputs.</p>
+      </div>
+
+      <div class="calculator-grid">
+        <div class="calculator-card glass-panel">
+          <div class="slider-group">
+            <div class="slider-header">
+              <div class="slider-title">Number of Connected Devices</div>
+              <div class="slider-value-badge" id="badge-device-count">15 Devices</div>
+            </div>
+            <div class="slider-input-wrapper">
+              <input type="range" class="slider-input" id="input-device-count" min="1" max="100" value="15">
+            </div>
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <div class="slider-title">Daily Usage Hours (Avg per device)</div>
+              <div class="slider-value-badge" id="badge-usage-hours">8 Hrs/Day</div>
+            </div>
+            <div class="slider-input-wrapper">
+              <input type="range" class="slider-input" id="input-usage-hours" min="1" max="24" value="8">
+            </div>
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <div class="slider-title">Local Electricity Rate ($/kWh)</div>
+              <div class="slider-value-badge" id="badge-elec-rate">$0.15 / kWh</div>
+            </div>
+            <div class="slider-input-wrapper">
+              <input type="range" class="slider-input" id="input-elec-rate" min="0.05" max="0.50" step="0.01" value="0.15">
+            </div>
+          </div>
+
+          <div class="calc-action">
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: -10px;">Numbers adjust automatically in real-time as you shift sliders.</p>
+          </div>
+        </div>
+
+        <div class="calc-results-card glass-panel">
+          <div class="results-stats-row">
+            <div class="results-stat-box">
+              <h5>Monthly Consumption</h5>
+              <div class="stat-val" id="calc-kwh-val">288 kWh</div>
+            </div>
+            <div class="results-stat-box">
+              <h5>Estimated Monthly Cost</h5>
+              <div class="stat-val" id="calc-cost-val">$43.20</div>
+            </div>
+          </div>
+
+          <div class="results-chart-container">
+            <div class="results-chart-label">Grid Load Simulation (Standard vs. Smart)</div>
+            <div class="bar-chart-wrapper">
+              
+              <div class="chart-bar-group">
+                <div class="chart-bar-labels">
+                  <span>Standard Grid Setup (No Automation)</span>
+                  <span id="chart-lbl-standard">288 kWh</span>
+                </div>
+                <div class="chart-bar-track">
+                  <div class="chart-bar-fill fill-standard" id="chart-fill-standard" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="chart-bar-group">
+                <div class="chart-bar-labels">
+                  <span style="color: var(--color-cyan);">SmartLife Optimized Setup (30% Savings)</span>
+                  <span id="chart-lbl-smart" style="color: var(--color-cyan);">201.6 kWh</span>
+                </div>
+                <div class="chart-bar-track">
+                  <div class="chart-bar-fill fill-smart" id="chart-fill-smart" style="width: 63%;"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="calc-savings-tip">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707-.707M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <p id="calc-eco-description">Active automation saves you about $12.96 per month. You offset 61.3 kg of Carbon emissions annually, equivalent to planting 3.2 trees!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     HOME AUTOMATION IDEAS SECTION
+     ========================================================================== */ -->
+  <section id="automation">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Rule Engine</div>
+        <h2 class="section-title"><span class="gradient-text">Home Automation</span> Ideas</h2>
+        <p class="section-desc">Unlock simple recipes to interconnect climate, visual streams, and locks. Run these rules locally on your border router.</p>
+      </div>
+
+      <div class="automation-grid">
+        <div class="automation-card glass-panel" data-routine="morning">
+          <div class="automation-icon-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="4"/>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+            </svg>
+          </div>
+          <h4>Morning Routine</h4>
+          <p>Automatically retract motorized smart curtains, dim safety lights, and initialize the espresso machine when local time hits 7:00 AM.</p>
+          <div class="learn-more-btn">
+            <span>Learn More</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="automation-card glass-panel" data-routine="security">
+          <div class="automation-icon-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </div>
+          <h4>Security Mode</h4>
+          <p>Trigger central door lock-downs, enable full exterior motion camera tracking, and initialize night alarm modules when geo-tracking confirms you left.</p>
+          <div class="learn-more-btn">
+            <span>Learn More</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="automation-card glass-panel" data-routine="energy">
+          <div class="automation-icon-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+          </div>
+          <h4>Energy Saver</h4>
+          <p>Switch smart speakers to eco-sleep configurations, dim lights by 20% on peak electrical grids, and cut power to empty room sockets.</p>
+          <div class="learn-more-btn">
+            <span>Learn More</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="automation-card glass-panel" data-routine="night">
+          <div class="automation-icon-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+          </div>
+          <h4>Night Mode</h4>
+          <p>Dim all active fixtures to 10% brightness, set smart heating to a relaxing 68°F, and check state triggers to guarantee garage doors are closed.</p>
+          <div class="learn-more-btn">
+            <span>Learn More</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detail Modal Overlays for Automations (Hidden initially) -->
+  <div class="modal-overlay" id="automation-modal">
+    <div class="modal-card glass-panel">
+      <button class="modal-close-btn" id="modal-close">✕</button>
+      <div class="modal-icon" id="modal-icon-block">
+        <!-- SVG injected dynamically -->
+      </div>
+      <h3 class="modal-title" id="modal-title-text">Morning Routine</h3>
+      <div class="modal-subtitle" id="modal-sub-text">Local Trigger Flow</div>
+      
+      <div class="modal-flow" id="modal-flow-steps">
+        <!-- Steps injected dynamically in script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+     SMART DASHBOARD SECTION
+     ========================================================================== */ -->
+  <section id="dashboard">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Live Simulation Console</div>
+        <h2 class="section-title"><span class="gradient-text">Interactive</span> Smart Dashboard</h2>
+        <p class="section-desc">Test real-time IoT controls. Actively toggle switches on the mockup card grid to see connected device totals adjust and prompt warning notifications.</p>
+      </div>
+
+      <div class="dashboard-mockup">
+        <div class="dashboard-header">
+          <div class="dash-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-cyan)" stroke-width="2">
+              <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+              <path d="M12 6v6l4 2"/>
+            </svg>
+            <span>Living Space Console v2.8</span>
+          </div>
+          <div class="dash-status">
+            <div class="dash-status-dot"></div>
+            <span>Home Grid: Connected</span>
+          </div>
+        </div>
+
+        <div class="dashboard-grid">
+          
+          <div class="dash-devices-area">
+            <h4>Live Device Toggles</h4>
+            
+            <div class="dash-devices-grid">
+              
+              <div class="dash-device-card active-state" id="dash-card-light">
+                <div class="dash-device-card-header">
+                  <div class="dash-device-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .6 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
+                      <path d="M9 18h6M10 22h4"/>
+                    </svg>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="toggle-smart-light" checked>
+                    <span class="slider-switch"></span>
+                  </label>
+                </div>
+                <div class="dash-device-card-details">
+                  <h5>Smart Bulbs</h5>
+                  <p id="txt-light-desc">Living Room: 75% Bright</p>
+                </div>
+              </div>
+
+              <div class="dash-device-card" id="dash-card-lock">
+                <div class="dash-device-card-header">
+                  <div class="dash-device-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                      <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                    </svg>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="toggle-smart-lock">
+                    <span class="slider-switch"></span>
+                  </label>
+                </div>
+                <div class="dash-device-card-details">
+                  <h5>Door Security</h5>
+                  <p id="txt-lock-desc">Main Gate: Unlocked</p>
+                </div>
+              </div>
+
+              <div class="dash-device-card active-state" id="dash-card-camera">
+                <div class="dash-device-card-header">
+                  <div class="dash-device-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                      <circle cx="12" cy="13" r="4"/>
+                    </svg>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="toggle-smart-camera" checked>
+                    <span class="slider-switch"></span>
+                  </label>
+                </div>
+                <div class="dash-device-card-details">
+                  <h5>CCTV Stream</h5>
+                  <p id="txt-camera-desc">Front Porch: Active</p>
+                </div>
+              </div>
+
+              <div class="dash-device-card active-state" id="dash-card-thermostat">
+                <div class="dash-device-card-header">
+                  <div class="dash-device-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/>
+                    </svg>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="toggle-smart-thermostat" checked>
+                    <span class="slider-switch"></span>
+                  </label>
+                </div>
+                <div class="dash-device-card-details">
+                  <h5>AC Controller</h5>
+                  <p id="txt-thermostat-desc">Climate Set: 72°F</p>
+                </div>
+              </div>
+
+              <div class="dash-device-card" id="dash-card-audio">
+                <div class="dash-device-card-header">
+                  <div class="dash-device-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+                      <path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v4M8 23h8"/>
+                    </svg>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="toggle-smart-audio">
+                    <span class="slider-switch"></span>
+                  </label>
+                </div>
+                <div class="dash-device-card-details">
+                  <h5>Audio Speaker</h5>
+                  <p id="txt-audio-desc">Living Room: Muted</p>
+                </div>
+              </div>
+
+              <div class="dash-device-card active-state" id="dash-card-outlet">
+                <div class="dash-device-card-header">
+                  <div class="dash-device-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                      <path d="M9 8h6M9 12h6M12 16v2"/>
+                    </svg>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="toggle-smart-outlet" checked>
+                    <span class="slider-switch"></span>
+                  </label>
+                </div>
+                <div class="dash-device-card-details">
+                  <h5>Kitchen Socket</h5>
+                  <p id="txt-outlet-desc">Coffee Brewer: Idle</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="dash-sidebar">
+            
+            <div class="dash-metric-widget">
+              <h5>Local Ecosystem Health</h5>
+              <div class="radial-progress-widget">
+                <div class="radial-svg-container">
+                  <svg class="radial-svg-circle" viewBox="0 0 64 64">
+                    <circle class="radial-circle-bg" cx="32" cy="32" r="28"></circle>
+                    <circle class="radial-circle-fill" id="health-ring-fill" cx="32" cy="32" r="28" stroke-dashoffset="17.6"></circle>
+                  </svg>
+                </div>
+                <div class="radial-desc">
+                  <div class="radial-progress-text" id="health-val-txt">90%</div>
+                  <h6>All Nodes Active</h6>
+                  <p>Latency: 4.8ms</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="dash-metric-widget">
+              <h5>System Consumption Loads</h5>
+              <div class="dash-progress-widget">
+                
+                <div class="dash-progress-row">
+                  <h6>
+                    <span>Smart Hub Connected Count</span>
+                    <span id="dash-device-count-txt">4 / 6 Active</span>
+                  </h6>
+                  <div class="dash-progress-track">
+                    <div class="dash-progress-fill" id="dash-progress-fill-devices" style="width: 66.6%;"></div>
+                  </div>
+                </div>
+
+                <div class="dash-progress-row">
+                  <h6>
+                    <span>System Bandwidth</span>
+                    <span>42 Mbps</span>
+                  </h6>
+                  <div class="dash-progress-track">
+                    <div class="dash-progress-fill" style="width: 48%;"></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="dash-metric-widget" style="flex: 1; display: flex; flex-direction: column;">
+              <h5>Live Security & Info Logs</h5>
+              <div class="dash-alerts-widget">
+                <div class="dash-alerts-list" id="dashboard-console-logs">
+                  <div class="dash-alert-item success">
+                    <div class="dash-alert-text">
+                      <p>Central mesh router network initialized securely.</p>
+                      <span>Just Now</span>
+                    </div>
+                  </div>
+                  <div class="dash-alert-item info">
+                    <div class="dash-alert-text">
+                      <p>Geofence zone entered. AC Controller adjusted to 72°F.</p>
+                      <span>15 Mins Ago</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     FUTURE TECHNOLOGY SECTION
+     ========================================================================== */ -->
+  <section id="future">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Upcoming Innovation</div>
+        <h2 class="section-title"><span class="gradient-text">Future of</span> Smart Living</h2>
+        <p class="section-desc">Explore cutting-edge advancements in home automation protocols that will shape self-sustaining ecological building projects.</p>
+      </div>
+
+      <div class="future-grid">
+        <div class="future-card">
+          <div class="future-tech-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+              <circle cx="12" cy="12" r="4"/>
+            </svg>
+          </div>
+          <h4>AI-Powered Homes</h4>
+          <p>Local AI neural networks operating at the edge to recognize user behavioral templates and tailor room configurations proactively.</p>
+        </div>
+
+        <div class="future-card">
+          <div class="future-tech-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18.36 6.64a9 9 0 1 1-12.73 0M12 2v10"/>
+            </svg>
+          </div>
+          <h4>Predictive Automation</h4>
+          <p>Cross-sensor mesh forecasting weather front arrivals to adapt heating structures before cold shifts affect interior wall temperatures.</p>
+        </div>
+
+        <div class="future-card">
+          <div class="future-tech-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+            </svg>
+          </div>
+          <h4>Smart Grid Links</h4>
+          <p>Local homes automatically selling back battery bank capacities to electrical grids during heavy community power demand spikes.</p>
+        </div>
+
+        <div class="future-card">
+          <div class="future-tech-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+              <path d="M19 10v1a7 7 0 0 1-14 0v-1M12 19v4"/>
+            </svg>
+          </div>
+          <h4>Voice Air Spaces</h4>
+          <p>Ambient smart microphone meshes picking up voice cues without requiring designated trigger keywords or cloud databases.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     CONTACT SECTION
+     ========================================================================== */ -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Contact Matrix</div>
+        <h2 class="section-title"><span class="gradient-text">Get in</span> Touch</h2>
+        <p class="section-desc">Have questions about IoT, Matter hubs, or planning a project? Message our technical team directly.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-form-card glass-panel">
+          <form id="portfolio-contact-form" onsubmit="return false;">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="contact-name">Name</label>
+                <input type="text" class="form-input" id="contact-name" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-email">Email</label>
+                <input type="email" class="form-input" id="contact-email" placeholder="john@smartlife.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-message">Message</label>
+              <textarea class="form-input" id="contact-message" rows="5" placeholder="Explain your project needs..." style="resize: none;" required></textarea>
+            </div>
+
+            <div class="contact-btn-row">
+              <button type="submit" class="glow-btn glow-btn-primary" id="btn-submit-message">Send Message</button>
+              <button type="reset" class="glow-btn glow-btn-secondary" id="btn-reset-form">Reset Form</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="contact-info-card glass-panel">
+          <div>
+            <h4>Technical HQ Information</h4>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">Our engineering crew responds to architectural or hardware compatibility inquiries within 24 standard business hours.</p>
+          </div>
+
+          <div class="contact-method">
+            <div class="contact-method-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div class="contact-method-text">
+              <h5>Direct Digital Mail</h5>
+              <p>support@smartlifehub.io</p>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <div class="contact-method-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div class="contact-method-text">
+              <h5>Operational Hub</h5>
+              <p>IoT Innovation Park, Bangalore, India</p>
+            </div>
+          </div>
+
+          <div class="social-links-wrapper">
+            <h5>Connect on Socials</h5>
+            <div class="social-icons-row">
+              <a href="#" class="social-icon-btn" aria-label="X Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+              <a href="#" class="social-icon-btn" aria-label="GitHub Repository">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                </svg>
+              </a>
+              <a href="#" class="social-icon-btn" aria-label="LinkedIn Space">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     FOOTER SECTION
+     ========================================================================== */ -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand-column">
+        <a href="#home" class="logo" style="margin-bottom: 20px;">
+          <div class="logo-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m12 3-10 9h3v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-8h3L12 3z"/>
+            </svg>
+          </div>
+          <div class="logo-text">SmartLife <span>Hub</span></div>
+        </a>
+        <p>Providing cutting-edge digital blueprints, energy metrics tools, and direct connectivity validations to automate comfortable home spaces globally.</p>
+      </div>
+
+      <div>
+        <h5 class="footer-column-title">Quick Links</h5>
+        <div class="footer-links">
+          <a href="#home">Home Base</a>
+          <a href="#about">What We Do</a>
+          <a href="#planner">IoT Space Planner</a>
+          <a href="#contact">Contact Desk</a>
+        </div>
+      </div>
+
+      <div>
+        <h5 class="footer-column-title">Features</h5>
+        <div class="footer-links">
+          <a href="#checker">Device Checker</a>
+          <a href="#calculator">Bill Calculator</a>
+          <a href="#automation">Automation Rules</a>
+          <a href="#dashboard">Live Simulation</a>
+        </div>
+      </div>
+
+      <div>
+        <h5 class="footer-column-title">Contact Support</h5>
+        <div class="footer-links" style="gap: 8px;">
+          <p style="font-size: 0.85rem; color: var(--text-secondary);">Direct Line:</p>
+          <p style="font-size: 0.85rem; color: var(--color-cyan); font-weight: 500;">+1 (800) 555-LIFE</p>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 10px;">HQ Mailbox:</p>
+          <p style="font-size: 0.85rem; color: var(--color-cyan); font-weight: 500;">support@smartlifehub.io</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 SmartLife Hub. All rights reserved. Created for connected futures.</p>
+      <div class="footer-legal-links">
+        <a href="#">Privacy Protocol</a>
+        <a href="#">Terms of Architecture</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toasts feedback container -->
+  <div class="toast-container" id="toast-wrapper">
+    <!-- Toasts injected dynamically -->
+  </div>
+
+  <!-- JavaScript Code Engine -->
+  <script src="script.js"></script>
+</body>
+</html>
